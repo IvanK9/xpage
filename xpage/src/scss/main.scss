@@ -1,0 +1,21 @@
+@use "./base/base";
+
+html {
+  background-color: base.$bg-color;
+  font-family: base.$font-CommissionerBold;
+}
+
+h1 {
+  font-family: base.$font-CommissionerBold;
+}
+
+p {
+  font-family: base.$font-Druk;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  border: 2px solid red;
+}
