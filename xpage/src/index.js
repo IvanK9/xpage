@@ -9,6 +9,8 @@ import bgSwiperThirdMob from "./assets/image/swiper-3-mobile.webp";
 import imgPlayCardFirst from "./assets/image/play-1.png";
 import imgPlayCardSecond from "./assets/image/play-2.png";
 import imgPlayCardThird from "./assets/image/play-3.png";
+import imgLearnFirst from "./assets/image/learn-1.png";
+import imgLearnSecond from "./assets/image/learn-2.png";
 // import arrow from "./assets/image/arrow.svg";
 
 import Swiper from "swiper/bundle";

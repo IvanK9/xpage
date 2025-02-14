@@ -14,6 +14,7 @@
 .play__link {
   display: flex;
   transition: opacity 0.3s ease-in-out;
+  margin-bottom: 8px;
 
   &:hover {
     opacity: 0.6;
@@ -45,10 +46,11 @@
 .play__list {
   display: flex;
   column-gap: 9px;
+  justify-content: space-between;
 }
 
 .play__item {
-  max-width: 620px;
+  max-width: 621px;
   background-color: vars.$color-white;
   border-radius: 20px;
   object-fit: cover;
