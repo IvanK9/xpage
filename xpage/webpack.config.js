@@ -11,16 +11,26 @@ module.exports = {
     clean: true,
   },
 
+  performance: {
+    hints: false,
+    maxAssetSize: 512000,
+    maxEntrypointSize: 512000,
+  },
+
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
       {
         test: /\.scss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|webp)$/i,
-        type: "asset/resource"
-      }
+        test: /\.(png|webp|svg)$/i,
+        type: "asset/resource",
+      },
     ],
   },
 
@@ -34,14 +44,12 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "dist"),
     },
-    open:
-    {
-      app:
-      {
-        name: 'chrome'
-      }
-    }
+    open: {
+      app: {
+        name: "chrome",
+      },
+    },
   },
 
-  mode: "development",
+  mode: "production",
 };

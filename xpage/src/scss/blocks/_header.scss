@@ -1,11 +1,15 @@
 @use "../base/vars";
 
+.header {
+  margin-bottom: 8px;
+}
+
 .header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 20px;
-  background-color: vars.$bg-white;
+  padding: 18px 20px;
+  background-color: vars.$color-white;
   border-radius: 20px;
 }
 

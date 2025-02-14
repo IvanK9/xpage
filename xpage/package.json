@@ -20,6 +20,9 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "sass": "^1.84.0"
+    "file-loader": "^6.2.0",
+    "sass": "^1.84.0",
+    "swiper": "^11.2.3",
+    "url-loader": "^4.1.1"
   }
 }
