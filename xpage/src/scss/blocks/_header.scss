@@ -67,13 +67,14 @@
       align-items: center;
       width: 320px;
       height: 100vh;
-      top: 70px;
+      top: 68px;
       left: 0;
       transform: translateX(-100%);
       z-index: 3;
       padding: 20px;
       border-radius: 20px;
       background-color: vars.$color-white;
+      transition: overflow .3s ease-in-out, transform .3s ease-in-out;
     }
   }
 }
@@ -81,6 +82,7 @@
 .nav--open {
   .nav__list {
     transform: translateX(0);
+    transition: overflow .3s ease-in-out, transform .3s ease-in-out;
   }
 }
 
