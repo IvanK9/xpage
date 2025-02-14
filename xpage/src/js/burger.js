@@ -14,7 +14,7 @@ btnBurger.addEventListener("click", function () {
 headerItem.forEach((link) =>
   link.addEventListener("click", function () {
     btnBurger.classList.remove("header__btn-burger--active");
-    headerNav.classList.remove("header__nav--open");
+    headerNav.classList.remove("nav--open");
     body.classList.remove("noscroll");
   })
 );
