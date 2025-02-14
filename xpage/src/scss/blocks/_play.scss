@@ -1,0 +1,140 @@
+@use "../base/vars";
+
+.play {
+  margin-bottom: 120px;
+}
+
+.play__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 64px;
+}
+
+.play__link {
+  display: flex;
+  transition: opacity 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.play__title {
+  margin: 0;
+  font-family: vars.$font-Druk;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: vars.$color-black;
+}
+
+.play__link-txt {
+  margin-right: 12px;
+  font-family: vars.$font-Druk;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: vars.$color-orange;
+}
+
+.play__list {
+  display: flex;
+  column-gap: 9px;
+}
+
+.play__item {
+  max-width: 620px;
+  background-color: vars.$color-white;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: right top;
+  height: 784px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+  img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: none;
+    object-position: right top;
+    height: 520px;
+    margin-bottom: 62px;
+  }
+
+  &:hover {
+    background-color: vars.$color-black;
+
+    img {
+      margin-top: -95px;
+    }
+
+    .play__item-title {
+      color: vars.$color-white;
+    }
+
+    .play__item-descr {
+      margin-bottom: 32px;
+      color: vars.$color-white;
+    }
+
+    .play__btn {
+      display: flex;
+    }
+  }
+}
+
+.play__item-box {
+  padding: 0 24px 24px 24px;
+}
+
+.play__item-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: vars.$font-Druk;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: vars.$color-black;
+  max-width: 550px;
+}
+
+.play__item-descr {
+  margin: 0;
+  font-family: vars.$font-CommissionerRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: vars.$color-black;
+  max-width: 440px;
+}
+
+.play__btn {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 24px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: vars.$color-orange;
+
+  .play__btn-txt {
+    font-family: vars.$font-Druk;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: vars.$color-white;
+  }
+}

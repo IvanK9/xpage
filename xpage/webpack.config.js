@@ -28,8 +28,9 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|webp|svg)$/i,
+        test: /\.(png|webp)$/i,
         type: "asset/resource",
+        // use: ['url-loader', 'file-loader'],
       },
     ],
   },

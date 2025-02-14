@@ -6,6 +6,10 @@ import bgSwiperThird from "./assets/image/swiper-3.webp";
 import bgSwiperFirstMob from "./assets/image/swiper-1-mobile.webp";
 import bgSwiperSecondMob from "./assets/image/swiper-2-mobile.webp";
 import bgSwiperThirdMob from "./assets/image/swiper-3-mobile.webp";
+import imgPlayCardFirst from "./assets/image/play-1.png";
+import imgPlayCardSecond from "./assets/image/play-2.png";
+import imgPlayCardThird from "./assets/image/play-3.png";
+// import arrow from "./assets/image/arrow.svg";
 
 import Swiper from "swiper/bundle";
 // import { Pagination } from 'swiper/modules';
@@ -14,8 +18,11 @@ import Swiper from "swiper/bundle";
 // import 'swiper/css/pagination';
 import "swiper/css/bundle";
 
+// import "./base/fonts.scss";
+// import "./main.scss";
 import "./assets/fonts/fonts.scss";
-import "./scss/main.scss";
+import "./scss/main.scss"
+
 const swiperText = ["играй", "учись", "смотри"];
 const swiper = new Swiper(".swiper", {
   pagination: {
