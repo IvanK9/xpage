@@ -1,0 +1,94 @@
+@use "../base/vars";
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: vars.$bg-white;
+  border-radius: 20px;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 64px;
+}
+
+.header__logo {
+  vertical-align: bottom;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.nav__link {
+  font-family: vars.$font-Druk;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: vars.$color-black;
+  transition: opacity 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.menu {
+  display: flex;
+  column-gap: 6px;
+}
+
+.menu__btn {
+  padding: 7px 16px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.menu__btn-img {
+  margin-right: 8px;
+}
+
+.menu__txt {
+  font-family: vars.$font-Druk;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: vars.$color-black;
+}
+
+.menu__user {
+  padding: 3px 3px 3px 16px;
+  background-color: vars.$bg-main;
+  border-radius: 20px;
+  transition: opacity 0.3s ease-in-out;
+
+  span {
+    margin-right: 10px;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.menu__user-image {
+  display: inline-block;
+  vertical-align: middle;
+  img {
+    border-radius: 50%;
+  }
+}

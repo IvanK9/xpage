@@ -1,7 +1,12 @@
-// Color
-$bg-color: #e6f51c;
+@use "./vars";
 
-// Fonts
-$font-CommissionerBold: 'Commissioner-Bold';
-$font-CommissionerRegular: 'Commissioner-Regular';
-$font-Druk: 'Druk';
+html {
+  background-color: vars.$bg-main;
+  font-family: vars.$font-CommissionerBold;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

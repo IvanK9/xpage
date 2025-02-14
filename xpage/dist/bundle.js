@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html {\n  background-color: #e6f51c;\n  font-family: \"Commissioner-Bold\";\n}\n\nh1 {\n  font-family: \"Commissioner-Bold\";\n}\n\np {\n  font-family: \"Druk\";\n}\n\nimg {\n  width: 500px;\n  height: 500px;\n  padding: 20px;\n  border: 2px solid red;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://xpage/./src/scss/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html {\n  background-color: #ECECEC;\n  font-family: \"Commissioner-Bold\";\n}\n\n.container {\n  max-width: 1920px;\n  padding: 0 20px;\n  margin: 0 auto;\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\na, a:link, a:visited {\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: none;\n}\n\nul, ul li {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n.header__wrapper {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 14px 20px;\n  background-color: #fff;\n  border-radius: 20px;\n}\n\n.header__navigation {\n  display: flex;\n  align-items: center;\n  column-gap: 64px;\n}\n\n.nav__list {\n  display: flex;\n  column-gap: 24px;\n}\n\n.nav__link {\n  font-family: \"Druk\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 14px;\n  line-height: 140%;\n  text-transform: uppercase;\n  color: #202020;\n  transition: opacity 0.3s ease-in-out;\n}\n.nav__link:hover {\n  opacity: 0.6;\n}\n\n.menu {\n  display: flex;\n  column-gap: 6px;\n}\n\n.menu__btn {\n  padding: 7px 16px;\n  vertical-align: middle;\n  display: flex;\n  align-items: center;\n  transition: opacity 0.3s ease-in-out;\n}\n.menu__btn:hover {\n  opacity: 0.6;\n}\n\n.menu__btn-img {\n  margin-right: 8px;\n}\n\n.menu__txt {\n  font-family: \"Druk\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 14px;\n  line-height: 140%;\n  text-transform: uppercase;\n  color: #202020;\n}\n\n.menu__user {\n  padding: 3px 3px 3px 16px;\n  background-color: #ECECEC;\n  border-radius: 20px;\n  transition: opacity 0.3s ease-in-out;\n}\n.menu__user span {\n  margin-right: 10px;\n}\n.menu__user:hover {\n  opacity: 0.6;\n}\n\n.menu__user-image {\n  display: inline-block;\n  vertical-align: middle;\n}\n.menu__user-image img {\n  border-radius: 50%;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://xpage/./src/scss/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _assets_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/fonts/fonts.scss */ \"./src/assets/fonts/fonts.scss\");\n/* harmony import */ var _assets_image_cta_bg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/image/cta-bg.png */ \"./src/assets/image/cta-bg.png\");\n\r\n\r\n\r\n\r\n// const imageTest = document.querySelector(\".test\");\r\n// imageTest.src = image;\n\n//# sourceURL=webpack://xpage/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _assets_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/fonts/fonts.scss */ \"./src/assets/fonts/fonts.scss\");\n/* harmony import */ var _assets_image_xpage_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/image/xpage-logo.png */ \"./src/assets/image/xpage-logo.png\");\n/* harmony import */ var _assets_image_user_avatar_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/image/user-avatar.png */ \"./src/assets/image/user-avatar.png\");\n\r\n\r\n\r\n\r\n\r\n// const imageTest = document.querySelector(\".test\");\r\n// imageTest.src = image;\n\n//# sourceURL=webpack://xpage/./src/index.js?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
   \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"Commissioner-Bold .woff2\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Commissioner/Commissioner-Bold.woff2?");
+eval("module.exports = __webpack_require__.p + \"Commissioner-Bold.woff2\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Commissioner/Commissioner-Bold.woff2?");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("module.exports = __webpack_require__.p + \"Commissioner-Bold .woff2\";\n\n
   \*****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"Commissioner-Regular .woff\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Commissioner/Commissioner-Regular.woff?");
+eval("module.exports = __webpack_require__.p + \"Commissioner-Regular.woff\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Commissioner/Commissioner-Regular.woff?");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ eval("module.exports = __webpack_require__.p + \"Commissioner-Regular .woff\";\n
   \******************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"Commissioner-Regular .woff2\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Commissioner/Commissioner-Regular.woff2?");
+eval("module.exports = __webpack_require__.p + \"Commissioner-Regular.woff2\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Commissioner/Commissioner-Regular.woff2?");
 
 /***/ }),
 
@@ -186,7 +186,7 @@ eval("module.exports = __webpack_require__.p + \"Commissioner-Regular .woff2\";\
   \*****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"DrukWideCyr-Bold .woff\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Druk/DrukWideCyr-Bold.woff?");
+eval("module.exports = __webpack_require__.p + \"DrukWideCyr-Bold.woff\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Druk/DrukWideCyr-Bold.woff?");
 
 /***/ }),
 
@@ -196,17 +196,27 @@ eval("module.exports = __webpack_require__.p + \"DrukWideCyr-Bold .woff\";\n\n//
   \******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"DrukWideCyr-Bold .woff2\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Druk/DrukWideCyr-Bold.woff2?");
+eval("module.exports = __webpack_require__.p + \"DrukWideCyr-Bold.woff2\";\n\n//# sourceURL=webpack://xpage/./src/assets/fonts/Druk/DrukWideCyr-Bold.woff2?");
 
 /***/ }),
 
-/***/ "./src/assets/image/cta-bg.png":
-/*!*************************************!*\
-  !*** ./src/assets/image/cta-bg.png ***!
-  \*************************************/
+/***/ "./src/assets/image/user-avatar.png":
+/*!******************************************!*\
+  !*** ./src/assets/image/user-avatar.png ***!
+  \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"cta-bg .png\";\n\n//# sourceURL=webpack://xpage/./src/assets/image/cta-bg.png?");
+eval("module.exports = __webpack_require__.p + \"user-avatar.png\";\n\n//# sourceURL=webpack://xpage/./src/assets/image/user-avatar.png?");
+
+/***/ }),
+
+/***/ "./src/assets/image/xpage-logo.png":
+/*!*****************************************!*\
+  !*** ./src/assets/image/xpage-logo.png ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"xpage-logo.png\";\n\n//# sourceURL=webpack://xpage/./src/assets/image/xpage-logo.png?");
 
 /***/ })
 
