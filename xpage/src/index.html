@@ -12,23 +12,30 @@
     <div class="container">
       <div class="header__wrapper">
         <div class="header__navigation">
-          <a href="#" class="header__link-logo">
+          <div class="header__btn-burger">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.94727 22.667L25.7502 22.6751" stroke="#202020" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+              <path d="M6.94727 16H25.7502" stroke="#202020" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+              <path d="M6.94727 9.3335L25.7502 9.34261" stroke="#202020" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+              </svg>
+          </div>
+          <a href="https://www.xpage.ru/" class="header__link-logo">
             <img src="./xpage-logo.png" alt="Xpage logotip" class="header__logo">
           </a>
           <nav class="header__nav nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#play" class="nav__link">
                   играть
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#footer" class="nav__link">
                   смотреть
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#learn" class="nav__link">
                   учиться
                 </a>
               </li>
@@ -103,7 +110,7 @@
         </div>
       </div>
     </section>
-    <section class="play">
+    <section class="play" id="play">
       <div class="container">
         <div class="play__wrapper">
           <div class="play__header">
@@ -124,7 +131,11 @@
           <div class="play__content">
             <ul class="play__list">
               <li class="play__item">
-                <img src="./play-1.png" alt="Найди команду">
+                <!-- <img src="./play-1.png" alt="Найди команду"> -->
+                <picture>
+                  <source srcset="./play-1.png" media="(min-width: 600px)">
+                  <img src="./play-1-mobile.png" alt="Найди команду">
+                </picture>
                 <div class="play__item-box">
                   <h3 class="play__item-title">
                     Найди себе команду
@@ -146,7 +157,11 @@
                 </div>
               </li>
               <li class="play__item">
-                <img src="./play-2.png" alt="Создавай команды">
+                <!-- <img src="./play-2.png" alt="Создавай команды"> -->
+                <picture>
+                  <source srcset="./play-2.png" media="(min-width: 600px)">
+                  <img src="./play-2-mobile.png" alt="Создавай команды">
+                </picture>
                 <div class="play__item-box">
                   <h3 class="play__item-title">
                     Создавай команды
@@ -169,7 +184,11 @@
                 </div>
               </li>
               <li class="play__item">
-                <img src="./play-3.png" alt="Участвуй в турнирах">
+                <picture>
+                  <source srcset="./play-3.png" media="(min-width: 600px)">
+                  <img src="./play-3-mobile.png" alt="Участвуй в турнирах">
+                </picture>
+                <!-- <img src="./play-3.png" alt="Участвуй в турнирах"> -->
                 <div class="play__item-box">
                   <h3 class="play__item-title">
                     Участвуй в турнирах
@@ -195,7 +214,7 @@
         </div>
       </div>
     </section>
-    <section class="learn">
+    <section class="learn" id="learn">
       <div class="container">
         <div class="learn__wrapper">
           <div class="learn__header">
@@ -216,7 +235,11 @@
           <div class="learn__content">
             <div class="learn__box">
               <div class="learn__box-section section">
-                <img src="./learn-1.png" alt="Детская тренировка">
+                <!-- <img src="./learn-1.png" alt="Детская тренировка"> -->
+                <picture>
+                  <source srcset="./learn-1.png" media="(min-width: 600px)">
+                  <img src="./learn-1-mobile.png" alt="Детская тренировка">
+                </picture>
                 <h3 class="section__title">
                   мы собрали секции для детей по всему городу
                 </h3>
@@ -331,7 +354,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container">
       <div class="footer__wrapper">
         <h2 class="footer__title">
@@ -391,7 +414,11 @@
         </span>
       </div>
     </div>
-    <img src="./footer-bg.png" class="footer__bg" alt="Мяч">
+    <!-- <img src="./footer-bg.png" class="footer__bg" alt="Мяч"> -->
+    <picture>
+      <source srcset="./footer-bg.png" media="(min-width: 600px)">
+      <img src="./footer-bg-mobile.png" alt="Мяч" class="footer__bg">
+    </picture>
   </footer>
 </body>
 

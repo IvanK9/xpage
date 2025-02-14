@@ -2,6 +2,10 @@
 
 .play {
   margin-bottom: 120px;
+
+  @include vars.mobile {
+    margin-bottom: 42px;
+  }
 }
 
 .play__header {
@@ -9,6 +13,11 @@
   justify-content: space-between;
   align-items: end;
   margin-bottom: 64px;
+
+  @include vars.mobile {
+    margin-bottom: 17px;
+    align-items: flex-end;
+  }
 }
 
 .play__link {
@@ -18,6 +27,14 @@
 
   &:hover {
     opacity: 0.6;
+  }
+
+  @include vars.mobile {
+    margin-bottom: 0;
+
+    .play__link-img {
+      display: none;
+    }
   }
 }
 
@@ -30,6 +47,10 @@
   line-height: 120%;
   text-transform: uppercase;
   color: vars.$color-black;
+
+  @include vars.mobile {
+    font-size: 26px;
+  }
 }
 
 .play__link-txt {
@@ -41,12 +62,22 @@
   line-height: 130%;
   text-transform: uppercase;
   color: vars.$color-orange;
+
+  @include vars.mobile {
+    font-size: 14px;
+    margin-right: 0;
+  }
 }
 
 .play__list {
   display: flex;
   column-gap: 9px;
   justify-content: space-between;
+
+  @include vars.mobile {
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 .play__item {
@@ -58,7 +89,7 @@
   height: 784px;
   overflow: hidden;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   img {
     width: 100%;
@@ -74,6 +105,10 @@
 
     img {
       margin-top: -95px;
+
+      @include vars.mobile {
+        margin-top: -70px;
+      }
     }
 
     .play__item-title {
@@ -83,18 +118,41 @@
     .play__item-descr {
       margin-bottom: 32px;
       color: vars.$color-white;
+
+      @include vars.mobile {
+        margin-bottom: 10px;
+      }
     }
 
     .play__btn {
-      // display: flex;
       visibility: visible;
       opacity: 1;
+    }
+  }
+
+  @include vars.mobile {
+    border-radius: 10px;
+    height: 446px;
+    object-fit: contain;
+    object-position: right top;
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: contain;
+      object-position: right top;
+      height: 246px;
+      margin-bottom: 28px;
     }
   }
 }
 
 .play__item-box {
   padding: 0 24px 24px 24px;
+
+  @include vars.mobile {
+    padding: 0 12px 12px 12px;
+  }
 }
 
 .play__item-title {
@@ -108,6 +166,12 @@
   text-transform: uppercase;
   color: vars.$color-black;
   max-width: 550px;
+
+  @include vars.mobile {
+    margin-bottom: 8px;
+    font-size: 20px;
+    max-width: 272px;
+  }
 }
 
 .play__item-descr {
@@ -119,6 +183,11 @@
   line-height: 160%;
   color: vars.$color-black;
   max-width: 440px;
+
+  @include vars.mobile {
+    font-size: 14px;
+    max-width: 272px;
+  }
 }
 
 .play__btn {
@@ -134,7 +203,12 @@
   border: none;
   cursor: pointer;
   background-color: vars.$color-orange;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  @include vars.mobile {
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
 
   .play__btn-txt {
     font-family: vars.$font-Druk;
@@ -144,5 +218,9 @@
     line-height: 140%;
     text-transform: uppercase;
     color: vars.$color-white;
+
+    @include vars.mobile {
+      font-size: 14px;
+    }
   }
 }

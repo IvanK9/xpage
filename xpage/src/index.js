@@ -9,10 +9,17 @@ import bgSwiperThirdMob from "./assets/image/swiper-3-mobile.webp";
 import imgPlayCardFirst from "./assets/image/play-1.png";
 import imgPlayCardSecond from "./assets/image/play-2.png";
 import imgPlayCardThird from "./assets/image/play-3.png";
+import imgPlayCardFirstMob from "./assets/image/play-1-mobile.png";
+import imgPlayCardSecondMob from "./assets/image/play-2-mobile.png";
+import imgPlayCardThirdMob from "./assets/image/play-3-mobile.png";
 import imgLearnFirst from "./assets/image/learn-1.png";
+import imgLearnFirstMob from "./assets/image/learn-1-mobile.png";
 import imgLearnSecond from "./assets/image/learn-2.png";
 import footerBg from "./assets/image/footer-bg.png";
+import footerBgMob from "./assets/image/footer-bg-mobile.png";
 import footerQR from "./assets/image/footer-qr.png";
+
+import burger from "./js/burger";
 
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
