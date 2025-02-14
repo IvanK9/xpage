@@ -1,7 +1,7 @@
 @use "../base/vars";
 
 .learn {
-  margin-bottom: 120px;
+  margin-bottom: 105px;
 }
 
 .learn__wrapper {
@@ -226,6 +226,7 @@
 
   .aside__item-dscr {
     margin-bottom: 38px;
+    max-width: 100%;
   }
 }
 
@@ -239,6 +240,7 @@
   line-height: 140%;
   text-transform: uppercase;
   color: vars.$color-black;
+  max-width: 464px;
 }
 
 .aside__item-date {

@@ -1,12 +1,14 @@
 @use "./vars";
 
 html {
-  background-color: vars.$bg-main;
-  font-family: vars.$font-CommissionerBold;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
   margin: 0;
+  background-color: vars.$bg-main;
+  font-family: vars.$font-Druk;
 }
 
 .container {

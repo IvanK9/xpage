@@ -86,7 +86,9 @@
     }
 
     .play__btn {
-      display: flex;
+      // display: flex;
+      visibility: visible;
+      opacity: 1;
     }
   }
 }
@@ -120,7 +122,10 @@
 }
 
 .play__btn {
-  display: none;
+  // display: none;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -129,6 +134,7 @@
   border: none;
   cursor: pointer;
   background-color: vars.$color-orange;
+  transition: all .3s ease-in-out;
 
   .play__btn-txt {
     font-family: vars.$font-Druk;

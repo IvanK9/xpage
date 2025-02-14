@@ -11,17 +11,12 @@ import imgPlayCardSecond from "./assets/image/play-2.png";
 import imgPlayCardThird from "./assets/image/play-3.png";
 import imgLearnFirst from "./assets/image/learn-1.png";
 import imgLearnSecond from "./assets/image/learn-2.png";
-// import arrow from "./assets/image/arrow.svg";
+import footerBg from "./assets/image/footer-bg.png";
+import footerQR from "./assets/image/footer-qr.png";
 
 import Swiper from "swiper/bundle";
-// import { Pagination } from 'swiper/modules';
-// import "swiper/scss";
-// import "swiper/css";
-// import 'swiper/css/pagination';
 import "swiper/css/bundle";
 
-// import "./base/fonts.scss";
-// import "./main.scss";
 import "./assets/fonts/fonts.scss";
 import "./scss/main.scss"
 
