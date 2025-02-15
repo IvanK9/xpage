@@ -59,7 +59,6 @@
 
 .nav {
   @include vars.mobile {
-    // width: 100%;
     .nav__list {
       position: fixed;
       flex-direction: column;
