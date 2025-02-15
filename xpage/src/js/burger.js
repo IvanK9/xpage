@@ -1,5 +1,4 @@
 const btnBurger = document.querySelector('.header__btn-burger');
-console.log(btnBurger);
 
 const headerNav = document.querySelector(".header__nav");
 const headerItem = document.querySelectorAll(".nav__item");
