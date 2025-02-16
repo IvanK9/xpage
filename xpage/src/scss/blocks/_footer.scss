@@ -3,19 +3,14 @@
 .footer {
   position: relative;
   padding-bottom: 38px;
+  background-image: url("../assets/image/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 
   @include vars.mobile {
     padding-bottom: 25px;
-  }
-}
-
-.footer__bg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-
-  @include vars.mobile {
-    bottom: 59px;
+    background-image: url("../assets/image/footer-bg-mobile.png");
+    background-position: right bottom 60px;
   }
 }
 

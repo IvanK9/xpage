@@ -28,10 +28,21 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|webp)$/i,
+        test: /\.(png|webp|svg)$/i,
         type: "asset/resource",
+        generator: {
+          filename: 'assets/image/[name][ext]'
+        } 
         // use: ['url-loader', 'file-loader'],
       },
+
+      {
+        test: /\.(woff|woff2|ttf|otf|eot)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/fonts/[name][ext]'
+        } 
+      }
     ],
   },
 

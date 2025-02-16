@@ -113,6 +113,9 @@
   opacity: 1;
   background-color: vars.$color-white;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  background-image: url("../assets/image/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
 
   &:hover {
     color: vars.$color-white;
