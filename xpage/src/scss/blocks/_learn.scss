@@ -33,9 +33,6 @@
 
 .learn__title {
   margin: 0;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 80px;
   line-height: 120%;
   text-transform: uppercase;
@@ -67,9 +64,6 @@
 
 .learn__link-txt {
   margin-right: 12px;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 130%;
   text-transform: uppercase;
@@ -83,6 +77,11 @@
 
 .learn__content {
   display: flex;
+
+  @include vars.laptop {
+    flex-direction: column;
+    row-gap: 30px;
+  }
 }
 
 .learn__box {
@@ -90,6 +89,15 @@
   border-right: 1px solid vars.$color-grey;
   width: 70%;
   max-width: 1210px;
+
+  @include vars.laptop {
+    padding-right: 0;
+    padding-bottom: 16px;
+    border-right: none;
+    border-bottom: 1px solid vars.$color-grey;
+    width: 100%;
+    max-width: 100%;
+  }
 
   @include vars.mobile {
     width: 100%;
@@ -111,6 +119,8 @@
   margin-bottom: 20px;
   background-image: url("../assets/image/learn-1.png");
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   @include vars.mobile {
     border-radius: 10px;
@@ -124,9 +134,6 @@
 .section__title {
   margin: 0;
   margin-bottom: auto;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 48px;
   line-height: 120%;
   text-transform: uppercase;
@@ -144,9 +151,6 @@
 
 .section__btn {
   padding: 8px 12px;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 12px;
   line-height: 140%;
   text-transform: uppercase;
@@ -158,8 +162,6 @@
   transition: opacity 0.3s ease-in-out;
 
   @include vars.mobile {
-    bottom: 12px;
-    left: 12px;
     padding: 6px 12px;
     font-size: 10px;
   }
@@ -184,9 +186,6 @@
   margin: 0;
   margin-bottom: 60px;
   max-width: 880px;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 48px;
   line-height: 120%;
   text-transform: uppercase;
@@ -225,9 +224,6 @@
 }
 
 .training__filter {
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 12px;
   line-height: 140%;
   text-transform: uppercase;
@@ -257,6 +253,11 @@
 .aside {
   padding-left: 16px;
   max-width: 605px;
+
+  @include vars.laptop {
+    padding-left: 0;
+    max-width: 100%;
+  }
 
   @include vars.mobile {
     display: none;
@@ -306,9 +307,6 @@
 .asise__item-title {
   margin: 0;
   margin-bottom: auto;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 130%;
   text-transform: uppercase;
@@ -319,26 +317,18 @@
 
 .aside__item-content--video {
   padding-left: 287px;
-  background-image: url('../assets/image/learn-2.png');
+  background-image: url("../assets/image/learn-2.png");
   background-repeat: no-repeat;
-
-  // img {
-  //   float: left;
-  //   margin-right: 20px;
-  // }
 
   .aside__item-dscr {
     margin-bottom: 40px;
-    max-width: 100%;
+    max-width: 464px;
   }
 }
 
 .aside__item-dscr {
   margin: 0;
   margin-bottom: 16px;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 140%;
   text-transform: uppercase;
@@ -350,9 +340,6 @@
   padding: 8px 12px;
   border-radius: 20px;
   background-color: vars.$color-grey-bg;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 12px;
   line-height: 140%;
   text-transform: uppercase;
@@ -369,9 +356,6 @@
   padding: 8px 12px;
   border-radius: 20px;
   background-color: vars.$color-grey-bg;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 12px;
   line-height: 140%;
   text-transform: uppercase;
