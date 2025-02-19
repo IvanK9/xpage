@@ -2,15 +2,26 @@
 
 .footer {
   position: relative;
-  padding-bottom: 38px;
-  background-image: url("../assets/image/footer-bg.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
+
+
+  .container {
+    background-image: url("../assets/image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  @include vars.laptop-small {
+    .container {
+      background-size: 450px 360px;
+    }
+  }
 
   @include vars.mobile {
-    padding-bottom: 25px;
-    background-image: url("../assets/image/footer-bg-mobile.png");
-    background-position: right bottom 60px;
+    .container {
+      background-image: url("../assets/image/footer-bg-mobile.png");
+      background-position: right bottom 60px;
+      background-size: auto auto;
+    }
   }
 }
 
@@ -18,9 +29,11 @@
   position: relative;
   padding-top: 36px;
   border-top: 1px solid vars.$color-grey;
+  padding-bottom: 38px;
 
   @include vars.mobile {
     padding-top: 20px;
+    padding-bottom: 25px;
   }
 }
 
@@ -28,13 +41,15 @@
   max-width: 1140px;
   margin: 0;
   margin-bottom: 32px;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 48px;
   line-height: 120%;
   text-transform: uppercase;
   color: vars.$color-black;
+
+  @include vars.laptop {
+    max-width: 800px;
+    font-size: 30px;
+  }
 
   @include vars.mobile {
     max-width: 272px;
@@ -46,6 +61,10 @@
 
 .apps {
   margin-bottom: 300px;
+
+  @include vars.laptop-small {
+    margin-bottom: 400px;
+  }
 
   @include vars.mobile {
     margin-bottom: 160px;
@@ -90,7 +109,7 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  right: 270px;
+  right: 14%;
   top: 65px;
   z-index: 3;
   padding: 44px;
@@ -103,7 +122,15 @@
     margin-bottom: 36px;
   }
 
-  @include vars.mobile {
+  @include vars.laptop {
+    right: 50px;
+  }
+
+  @include vars.laptop-small {
+    top: 170px;
+  }
+
+  @include vars.tablet {
     display: none;
   }
 }
@@ -121,9 +148,6 @@
 
 .qr__title {
   margin: 0;
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 140%;
   text-transform: uppercase;
@@ -131,9 +155,7 @@
 }
 
 .footer__copyright {
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
+
   font-size: 12px;
   line-height: 140%;
   text-transform: uppercase;
