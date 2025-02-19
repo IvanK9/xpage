@@ -78,9 +78,6 @@
 }
 
 .nav__link {
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 140%;
   text-transform: uppercase;
@@ -108,6 +105,10 @@
     padding: 7px;
   }
 
+  @include vars.mobile {
+    padding: 5px;
+  }
+
   &:hover {
     opacity: 0.6;
   }
@@ -123,9 +124,6 @@
 }
 
 .menu__txt {
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 140%;
   text-transform: uppercase;
@@ -160,9 +158,6 @@
 }
 
 .user__txt {
-  font-family: vars.$font-Druk;
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 140%;
   text-transform: uppercase;
